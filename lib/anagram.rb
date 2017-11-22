@@ -6,8 +6,7 @@ class Anagram
   end
 
   def match(possibilities)
-    word = self.word
-    split_word = word.split("").sort
+    split_word = self.word.split("").sort
     possibilities.find_all do |possibility|
       split_possibility = possibility.split("").sort
       split_possibility == split_word
