@@ -8,7 +8,7 @@ class Anagram
   def match(possibilities)
     word = self.word
     split_word = word.split.sort
-    possiblities.find_all do |possibility|
+    possibilities.find_all do |possibility|
       split_possibility = possibility.split.sort
       split_possibility == split_word
     end
