@@ -7,6 +7,6 @@ class Anagram
 
   def match(possibilities)
     word = self.word
-    split_word = word.split("")
+    split_word = word.split
   end
 end
