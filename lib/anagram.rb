@@ -13,6 +13,6 @@ class Anagram
       split_possibility = possibility.split.sort
       solution << possibility if split_possibility == split_word
     end
-
+    solution
   end
 end
