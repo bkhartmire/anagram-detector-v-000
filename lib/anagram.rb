@@ -10,7 +10,7 @@ class Anagram
     split_word = word.split("").sort
     possibilities.find_all do |possibility|
       split_possibility = possibility.split("").sort
-      solution << possibility if split_possibility == split_word
+      split_possibility == split_word
     end
   end
 end
