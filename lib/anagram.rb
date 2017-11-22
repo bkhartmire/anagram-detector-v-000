@@ -5,5 +5,8 @@ class Anagram
     @word = word
   end
 
-  
+  def match(possibilities)
+    word = self.word
+    
+  end
 end
