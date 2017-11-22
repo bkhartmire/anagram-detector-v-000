@@ -12,6 +12,6 @@ class Anagram
       split_possibility = possibility.split.sort
       split_possibility == split_word
     end
-      
+
   end
 end
